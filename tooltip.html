@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+        .container {
+            width: 60%;
+            padding: 20px;
+            background-color: #87f8f6;
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+        }
+
+        h1 {
+            color: blue;
+        }
+        hr {
+            border: 1px solid red;
+            width: 100%;
+        }
+        .div {
+            position: relative;
+        }
+        .div span {
+            position: absolute;
+            bottom: -30px;
+            left: -10px;
+            background-color: black;
+            color: white;
+            width: 100px;
+            border-radius: 5px;
+            padding: 5px;
+            display: none;
+        }
+
+        .div:hover span {
+            display: block;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>This is a div for Tooltip</h1>
+      <hr />
+      <div class="div">Hover me <span>this is a tooltip</span></div>
+    </div>
+  </body>
+</html>
