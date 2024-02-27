@@ -1,23 +1,60 @@
+// let title = document.querySelector("#title").innerHTML
+
+// console.log(title)
 let value = 15;
 
+let message = "hello world";
+
+let email = "khalil@Gmail.com"
+
+// console.log(message.length)
+// console.log(email.includes("@"))
+// console.log(email.indexOf('@'))
+// console.log(email.concat(".pk"))
+// console.log(email.toUpperCase())
+// console.log(email.toLowerCase())
+
+// let condition = true;
+
+// console.log(typeof value)
+
 //console.log(value / "hello")
+
+// Increment and decrement
+
+// let num1 = 8;
+// let num2 = "hello";
+
+// let result = num1 * num2;
+
+// num1 = num1 + 1;
+
+// num1++
+// num1--
+
+// console.log(num1)
 
 // value = value + 1;
 
 // value += 10;
 // value -= 10;
-
+// console.log(value)
 // const age = 30;
 // const title = "blogPost";
 // const author = "Elif Shafak";
 
 // concatination way
 
-// let result = "this is a book " + title + "author " + author + "and his sge is " + age; 
+// let title = "once a upon a time";
+// let author = "Elif Shafak";
+// let age = 40;
+
+// let result = "this is a book " + title + "author " + author + "and his sge is " + age;
 
 // String way
 
 // let result = `this is a book ${title} author ${author} and his age is ${age}`
+// console.log(result)
 
 // HTML  templates
 
@@ -29,7 +66,8 @@ let value = 15;
 // Arrays
 
 // const name = "the lean startup";
-// const names = ["ali","asif","qambar","khalil"]
+const names = ["ali","asif","qambar","khalil"];
+const age = [12,33,55,16];
 
 // console.log(names.length)
 
@@ -39,22 +77,22 @@ let value = 15;
 
 // console.log(names.concat(["mustafa","aizad"]))
 
-// let upNames = names.concat(["hello"])
+// console.log(names)
 
+// let upNames = names.concat(["hello"])
 
 // Destroyer Methods
 
 // names.push("mustafa");
 
 // names.pop();
-
+// console.log(names)
 
 // Null
 
 // let age = null;
 
 // console.log(age, age + 4, `hello ${age}`)
-
 
 // Comparison Operators
 
@@ -74,9 +112,7 @@ let value = 15;
 
 // console.log(age !== "18")
 
-
 // Type Conversion
-
 
 // let date = "2024";
 
@@ -96,8 +132,6 @@ let value = 15;
 
 // console.log(typeof age)
 
-
-
 // let me = false;
 
 // console.log(typeof me)
@@ -105,3 +139,4 @@ let value = 15;
 // me = String(me);
 
 // console.log(me)
+
