@@ -7,12 +7,20 @@ let message = "hello world";
 
 let email = "khalil@Gmail.com"
 
+
 // console.log(message.length)
 // console.log(email.includes("@"))
 // console.log(email.indexOf('@'))
 // console.log(email.concat(".pk"))
 // console.log(email.toUpperCase())
 // console.log(email.toLowerCase())
+// console.log(email.charAt(email.length-2));
+// console.log(email.at(2));
+// console.log(email[3]);
+// console.log(email.slice(0,6));
+// console.log(email.trim())
+
+
 
 // let condition = true;
 
