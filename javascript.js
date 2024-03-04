@@ -89,6 +89,8 @@ const age = [12,33,55,16];
 
 // let upNames = names.concat(["hello"])
 
+
+
 // Destroyer Methods
 
 // names.push("mustafa");
@@ -101,6 +103,8 @@ const age = [12,33,55,16];
 // let age = null;
 
 // console.log(age, age + 4, `hello ${age}`)
+
+
 
 // Comparison Operators
 

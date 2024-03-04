@@ -56,12 +56,49 @@ menuToggle(99);
 
 // practice arrow functions
 
-const bill = function (products, tax) {
+// const bill = function (products, tax) {
+//   let total = 0;
+//   for (let i = 0; i < products.length; i++) {
+//     total += products[i] + products[i] * tax;
+//   }
+//   return total;
+// };
+
+const bill = (products, tax) => {
   let total = 0;
-  for (let i = 0; i < products.length; i++) {
+  for (let i = 0; i < products.length; i++){
     total += products[i] + products[i] * tax;
   }
   return total;
 };
 
-console.log(bill([10, 15, 30], 0.2));
+
+console.log(bill([10, 15, 30], 0.2))
+
+// console.log(bill([10, 15, 30], 0.2));
+
+
+// functions
+
+// const nums = [5, 34 , 24 ,545 ,  34, 43]
+
+// const myfunc = () => console.log(nums)
+
+// myfunc()
+
+// methods
+
+// const person = 'Ali'
+
+// console.log(person.toUpperCase())
+
+
+// callbacks & forEach 
+
+const myfunc = (callbackFunc) => {
+  // do something
+  let value = 50;
+  callbackFunc(value)
+}
+
+myfunc(value => console.log(value))

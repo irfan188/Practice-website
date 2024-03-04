@@ -12,11 +12,11 @@
 
 // }
 
-const number = [1, 2, 3, 4, 5];
+// const number = [1, 2, 3, 4, 5];
 
-for (let i = 0; i < number.length; i++) {
-  console.log(number[i]);
-}
+// for (let i = 0; i < number.length; i++) {
+//   console.log(number[i]);
+// }
 
 // while LOOP
 
@@ -38,50 +38,50 @@ for (let i = 0; i < number.length; i++) {
 
 // conditional Statement
 
-const password = document.querySelector(".input").innerHTML;
+// const password = document.querySelector(".input").innerHTML;
 
-console.log(password);
+// console.log(password);
 
-let email = "mustafa@gmail.com";
+// let email = "mustafa@gmail.com";
 
-if (password.length >= 8) {
-  console.log("password is correct");
-} else if (password.includes("123")) {
-  console.log("password must be 8 characters");
-} else {
-}
+// if (password.length >= 8) {
+//   console.log("password is correct");
+// } else if (password.includes("123")) {
+//   console.log("password must be 8 characters");
+// } else {
+// }
 
 // if(email.includes("@")) {
 //     console.log("email working")
 // }
 
 // Logical OR || and &&
-let pass = "bhalil";
+// let pass = "bhalil";
 
-if (pass.length >= 8 && pass.includes("@")) {
-  console.log("object");
-} else if (
-  pass.length == 8 ||
-  pass.includes("@") ||
-  pass.includes("k") ||
-  pass.includes("b")
-) {
-  console.log("2nd statement");
-} else {
-  console.log("not working");
-}
+// if (pass.length >= 8 && pass.includes("@")) {
+//   console.log("object");
+// } else if (
+//   pass.length == 8 ||
+//   pass.includes("@") ||
+//   pass.includes("k") ||
+//   pass.includes("b")
+// ) {
+//   console.log("2nd statement");
+// } else {
+//   console.log("not working");
+// }
 
 // Logical Knot
 
-let age = 19;
+// let age = 19;
 
-if (age !== 18) {
-  console.log("working");
-  console.log(!false);
-}
+// if (age !== 18) {
+//   console.log("working");
+//   console.log(!false);
+// }
 
 // break and continue
-const findStd = "jafar";
+const findStd = "haider";
 
 const students = ["ali", "jafar", "haider", "khadim"];
 
@@ -93,26 +93,33 @@ const students = ["ali", "jafar", "haider", "khadim"];
 //   console.log(students[i])
 // }
 
+for(let i = 0; i < students.length; i++) {
+  if(findStd === students[i]) {
+    continue;
+  }
+  console.log(students[i])
+}
+
 //switch statement
 
-const result = "g";
+// const result = "g";
 
-switch (result) {
-  case "A":
-    console.log("excellent");
-    break;
-  case "B":
-    console.log("brilliant");
-    break;
-  case "C":
-    console.log("good");
-    break;
-  case "D":
-    console.log("poor");
-    break;
-  default:
-    console.log("not a valid grade");
-}
+// switch (result) {
+//   case "A":
+//     console.log("excellent");
+//     break;
+//   case "B":
+//     console.log("brilliant");
+//     break;
+//   case "C":
+//     console.log("good");
+//     break;
+//   case "D":
+//     console.log("poor");
+//     break;
+//   default:
+//     console.log("not a valid grade");
+// }
 
 // if(result === 100) {
 //   console.log('excellent')
