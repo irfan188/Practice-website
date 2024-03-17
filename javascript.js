@@ -21,7 +21,6 @@ let email = "khalil@Gmail.com"
 // console.log(email.trim())
 
 
-
 // let condition = true;
 
 // console.log(typeof value)
@@ -53,16 +52,21 @@ let email = "khalil@Gmail.com"
 
 // concatination way
 
-// let title = "once a upon a time";
-// let author = "Elif Shafak";
-// let age = 40;
+let title = "once a upon a time";
+let author = "Elif Shafak";
+let age = 40;
 
 // let result = "this is a book " + title + "author " + author + "and his sge is " + age;
 
+// console.log(result)
+
 // String way
 
-// let result = `this is a book ${title} author ${author} and his age is ${age}`
-// console.log(result)
+// let element = document.querySelector("#title");
+
+// let result = `this is a book ${title} author ${author} and his age is ${age}`;
+
+// element.innerHTML = `<h4>${title}</h4> <p>${author}</p>`;
 
 // HTML  templates
 
@@ -75,7 +79,7 @@ let email = "khalil@Gmail.com"
 
 // const name = "the lean startup";
 const names = ["ali","asif","qambar","khalil"];
-const age = [12,33,55,16];
+// const age = [12,33,55,16];
 
 // console.log(names.length)
 
