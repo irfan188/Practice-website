@@ -29,7 +29,7 @@ const arrayOfObjects = [
     school: "danish",
     height: "6.1ft",
     address: "bashir town",
-    phone_number: ["02343244234","234423424"],
+    phone_number: ["991312342","234423424"],
     length: "hlhe",
   },
   {
@@ -45,4 +45,4 @@ const arrayOfObjects = [
   },
 ];
 
-element.innerHTML = arrayOfObjects[0].phone_number[0];
+element.innerHTML = arrayOfObjects[0].phone_number[0].number2;
