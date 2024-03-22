@@ -30,3 +30,15 @@ const object2 = [
   {},
   {},
 ];
+
+// let date = new Date(2017,1,24,3,40,10,19)
+
+let date = new Date()
+
+// date.toString()
+
+// date.getFullYear()
+
+let math = Math
+
+console.log(math.ceil(3.4))

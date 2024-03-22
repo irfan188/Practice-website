@@ -79,6 +79,7 @@ let age = 40;
 
 // const name = "the lean startup";
 const names = ["ali","asif","qambar","khalil"];
+
 // const age = [12,33,55,16];
 
 // console.log(names.length)
@@ -100,7 +101,9 @@ const names = ["ali","asif","qambar","khalil"];
 // names.push("mustafa");
 
 // names.pop();
+
 // console.log(names)
+
 
 // Null
 
